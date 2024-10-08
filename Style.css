@@ -1,0 +1,111 @@
+body{
+    background-color: #f7f3e9;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #4a4a4a;
+}
+
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    background-color: #c49a6c;
+    padding: 30px 50px;
+    position: sticky; top: 0px;
+}
+
+header nav{
+    display: flex;
+}
+
+header a{
+   padding: 0 1em;
+}
+
+footer{
+    background-color: #4a4a4a;
+    color: #f7f3e9;
+    padding: 1em 5%;
+    text-align: center;
+    margin-top: 8%;
+}
+
+footer .contact{
+    margin-left: 2em;
+    color: #e27b4f;
+    font-weight: bold;
+}
+
+a{
+    color: black;
+    padding: 1em;
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(253, 242, 30);
+}
+
+.classproduit{
+    margin: -5% 20%;
+}
+
+.chaqueproduit{
+    border: rgb(211, 133, 24) solid 3px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: black 0px 0px 20px ;
+}
+
+.chaqueproduit img{
+    height: 350px;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.chaqueproduit h2{
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.chaqueproduit p{
+    margin: 5% 20%;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bulle {
+    position: sticky;
+    top: 20%; 
+    left: 2em;
+    width: 10em;
+    padding: 1em 2em;
+    background-color: white;
+    border: 2px solid #db633b;
+    border-radius: 10px;
+    font-style: italic;
+    box-shadow: black 0px 0px 2px;
+}
+
+.bulle p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #333;
+}
+
+
+
+@media screen and (max-width: 650px){
+   
+    header nav {
+        flex-direction: column;
+        gap: 1em;
+    }
+}

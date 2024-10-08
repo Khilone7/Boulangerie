@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Nous Rejoindre</title>
+        <link rel="stylesheet" href="Contact.css"/>
+        <link rel="stylesheet" href="Style.css"/>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="Index.html">Accueil</a>
+                <a href="Index.html#nosproduits">Nos produit</a>
+                <a href="Contact.html">Nous rejoindre</a>
+            </nav>
+        </header>
+        <main>
+            <h1>Nous rejoindre</h1>
+            <div class="formulaire">
+                <form method="get" action="">
+
+                    <div class="element">
+                        <label for="Civilité">Civilité</label><br>
+                        <select name="Civilité" id="Civilité">
+                            <option value="homme">Mr</option>
+                            <option value="femme">Mme</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+
+                    <div class="element">
+                        <label for="nom">Nom</label><br>
+                        <input type="text" name="nom" id="nom" placeholder="Nom" >
+                    </div>
+
+                    <div class="element">
+                        <label for="prenom">Prénom</label><br>
+                        <input type="text" name="prenom" id="prenom" maxlength="14" placeholder="Prénom">
+                    </div>
+
+                    <div class="element">
+                        <label for="mail">Adresse e-mail</label><br>
+                        <input type="email" name="mail" id="mail" placeholder="Ex:Zinedine.Zidane@hotmail.com">
+                    </div>
+
+                    <div class="element">
+                        <label for="date">Date de naissance</label><br>
+                        <input type="date" name="date" id="name">
+                    </div><br>
+
+                    <div class="element">
+                        <label for="motivation">Pourquoi voulez-vous nous rejoindre</label><br>
+                        <textarea name="texte" id="texte" placeholder="En quelques mots dites nous en plus sur vous et pourquoi voulez vous nous rejoindre."></textarea>
+                    </div><br>
+
+                    <div class="element">
+                        <button type="submit">Envoyer</button>
+                    </div>
+                </form>
+            </div>     
+        </main>
+        <footer> 
+            <p>Nous contacter: <span class="contact"> Boulangerie@hotmail.com </span> <span class="contact"> Téléphone:01.00.00.00.00 </span></p>   
+        </footer>
+    
+    </body>
+</html>
